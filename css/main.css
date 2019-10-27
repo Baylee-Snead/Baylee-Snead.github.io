@@ -102,14 +102,16 @@ textarea {
 
 html {
   font-size: 14px;
-  height: 100%;
   width: 100%;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
-  height: 100%;
   color: #eee;
   text-align: left;
 }
@@ -225,10 +227,6 @@ nav a:hover {
    text-align: center;
  }
 
- footer h2 {
-
- }
-
  footer p {
    margin: 0;
  }
@@ -327,17 +325,21 @@ header {
 button {
   padding: 18px;
   margin-top: 10px;
-  background-color: #d7332b;
+  background-color: #e1dfdf;
   font-weight: 600;
   font-size: 1.1em;
   letter-spacing: .1em;
-  color: #eee;
+  color: #2c2c2c;
   border: none;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
   border-radius: 10px;
-  box-shadow: -1px 7px 10px #a9a9a9;
+  box-shadow: -1px 7px 10px #2c2c2c;
+}
+
+button a {
+  color: #2c2c2c;
 }
 
 button i {
@@ -887,7 +889,8 @@ nav ul li a {
 }
 
 .hero-area .split-screen {
-  height: 600px;
+  height: 100vh;
+  align-items: flex-start;
 }
 
 header #split-right {
@@ -897,6 +900,12 @@ header #split-right {
 .work h3 {
   font-size: 2em;
   font-weight: bold;
+}
+
+/* Footer */
+
+footer h3 {
+  font-size: 1.6em;
 }
 
 /*------------------ About Page Desktop Styles ----------- */
