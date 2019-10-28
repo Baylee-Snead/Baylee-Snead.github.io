@@ -889,8 +889,7 @@ nav ul li a {
 }
 
 .hero-area .split-screen {
-  height: 100vh;
-  align-items: flex-start;
+  height: 600px;
 }
 
 header #split-right {
