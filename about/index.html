@@ -48,55 +48,17 @@
 <main>
   <section class="about-me">
     <div class="content-wrapper">
-        <h1>About Me</h1>
+        <h1>Hey, I'm <em>Baylee,</em> Welcome to My About Page</h1>
         <div class="about-content">
-          <p>I’m a Web Designer based in Brevard, NC who’s passionate about creating beautiful design solutions that enhance users’ experience and meet their needs. In addition to designing websites, I also design banners, flyers, and landing pages.<span><br></span>
-          I enjoy hand coding sites and take a mobile first approach so that sites I build look great across all mobile, tablet, and desktop screens. My favorite thing about what I do is getting to connect with people and creating something beautiful for them.<span><br></span>
-          When I’m not designing or coding, I’m probably out riding my mountain bike, shooting some film with my drone, or travelling.</p>
+          <p>
+          I'm a web & brand designer living in Pisgah Forest, NC, but I work with clients all over. I left my corporate IT job to start my own business and pursue a field I'm passionate about. Now I get to work with other awesome business owners to help them create a strong online prescense and branding they'll love.<span><br></span>
+          Throughout the design process, I'm very focused on the user's experience and how best to meet their needs. Afterall, the end goal is to attract your ideal clients and convert them in to paying clients. I love creating beautiful design solutions that do just that.<span><br></span>
+          When I’m not designing or coding, I’m out riding my mountain bike, shooting film with my drone, or traveling.</p>
         <figure>
           <img src="../img/about-me-pic.png" alt="picture of me">
         </figure>
       </div>
     </div> <!-- end of about-me content wrapper -->
-  </section>
-
-  <section class="facts-skillset">
-    <div class="content-wrapper">
-      <div class="facts-skillset-content">
-      <div class="facts">
-        <h3>The Facts:</h3>
-          <ul>
-            <li class="bright-red"><i class="fas fa-check"></i>Web Designer</li>
-            <li class="dark-red"><i class="fas fa-check"></i>Front-end Developer</li>
-            <li><i class="fas fa-check"></i>Loves working with people</li>
-            <li class="bright-red"><i class="fas fa-check"></i>Rides mountain bike too much</li>
-            <li class="dark-red"><i class="fas fa-check"></i>Drone Flyer</li>
-            <li><i class="fas fa-check"></i>Loves dogs</li>
-          </ul>
-        </div>
-      <div class="skillset">
-        <h3>Skillset:</h3>
-        <div class="skills-circles">
-          <ul class="languages">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>WordPress</li>
-          </ul>
-          <ul class="tools">
-            <li>Atom</li>
-            <li>Photoshop</li>
-            <li>UX Pin</li>
-            <li>Github</li>
-          </ul>
-          <ul class="what-i-do">
-            <li>Sitemaps</li>
-            <li>Wireframes</li>
-            <li>Visual Design</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    </div><!-- end of of facts-skillset content wrapper -->
   </section>
 
   <section class="work-together">
@@ -105,6 +67,53 @@
       <button><a href="../contact/index.html">Message Me<i class="fas fa-angle-right"></i></a></button>
     </div><!-- end of work-together content wrapper -->
   </section>
+
+  <section class="fun-facts">
+    <div class="content-wrapper">
+      <h2>Fun Facts</h2>
+      <div class="slideshow-container">
+
+        <!--- Full-width slides --->
+        <div class="facts-slides">
+          <div class="number">01.</div>
+          <p>I ride downhill mountain bikes which entails riding at fast speeds down steep, natural terrain with jumps mixed in. This hobby fulfills my adventurous side!</p>
+        </div>
+        <div class="facts-slides">
+          <div class="number">02.</div>
+          <p>I graduated from Randolph College in VA with a degree in Political Science and Psychology. Then I went straight into working in the IT field. Funny where life takes you.</p>
+        </div>
+        <div class="facts-slides">
+          <div class="number">03.</div>
+          <p>Another hobby I have is filming and video editing. I have a Parrot ANAFI drone - I'm obsessed with flying it and capturing bike clips with it.</p>
+        </div>
+        <div class="facts-slides">
+          <div class="number">04.</div>
+          <p>I've been a vegetarian since I was 8 years old, just never liked the taste of meat. Weird I know.</p>
+        </div>
+        <div class="facts-slides">
+          <div class="number">05.</div>
+          <p>I met the love of my life at a bike park a few years ago. Now we own our own little house in our dream town and travel the world together riding bikes.</p>
+        </div>
+
+        <!--- Next/Prev Buttons ----->
+        <a class="prev" onclick="plusSlides (-1)"><i class="fas fa-angle-left"></i></a>
+        <a class="next" onclick="plusSlides (+1)"><i class="fas fa-angle-right"></i></a>
+      </div>
+
+      <!-- Dots/bullets/indicators -->
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+      <figure>
+        <img src="../img/image-strip.png">
+      </figure>
+    </div>
+    </section>
 
 </main>
 
