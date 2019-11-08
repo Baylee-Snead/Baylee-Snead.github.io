@@ -657,6 +657,38 @@ form .submit:hover {
   cursor: pointer;
 }
 
+/*--------------- Mobile Styles for Landworx Page ----------------*/
+
+.top, .middle, .mood-board, .brand-style-guide, .flyer, .website {
+  display: flex;
+  justify-content: center;
+  color: #2c2c2c;
+  background-color: #eee;
+}
+
+.top .content-wrapper, .middle .content-wrapper, .mood-board .content-wrapper, .brand-style-guide .content-wrapper, .flyer .content-wrapper, .website .content-wrapper{
+  margin-bottom: 25px;
+}
+
+/* Top */
+
+.top .objective p {
+  font-style: italic;
+}
+
+/* Middle */
+
+.middle figure {
+  margin-bottom: 80px;
+}
+
+/* Website */
+
+.website h3 {
+  font-style: italic;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -975,6 +1007,26 @@ footer .copyright {
   width: 43.25%;
 }
 
+/*---------------- Landworx Page Tablet Styles --------------*/
+
+/* Top */
+
+.top figure {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top .objective {
+  display: flex;
+  flex-flow: row;
+}
+
+.top .objective p {
+  margin-left: 125px;
+}
+
 }
 
 /* Desktop styles 1200px and larger */
@@ -1067,6 +1119,41 @@ footer h3 {
 form{
   width: 60%;
 }
+
+/*------------------- Landworx Page Desktop Styles -------------*/
+
+
+/* Top */
+
+.top figure {
+  width: 75%;
+}
+
+.top .objective p {
+  margin-left: 200px;
+}
+
+/* Middle */
+
+.middle figure {
+  width: 80%;
+}
+
+.middle .problem-solution {
+  display: flex;
+  flex-flow: row;
+}
+
+.middle .solution {
+  margin-left: 200px;
+}
+
+/* Flyer */
+
+.flyer figure {
+  width: 80%;
+}
+
 
 }
 
