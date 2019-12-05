@@ -112,7 +112,7 @@ html, body {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
-  color: #eee;
+  color: #515151;
   text-align: left;
 }
 
@@ -127,6 +127,10 @@ ul, ol {
 a {
   color: #eee;
   text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  color: #2c2c2c;
 }
 
 h1 {
@@ -188,7 +192,7 @@ address {
 
 nav {
   overflow: hidden;
-  background-color: #eee;
+  background-color: #e5e5e5;
   margin-top: 25px;
 }
 
@@ -198,8 +202,8 @@ nav ul {
 
 
 nav ul li a {
-  background-color: #eee;
-  color: #2c2c2c;
+  background-color: #e5e5e5;
+  color: #515151;
   padding: 14px 16px;
   font-size: 1.29em;
   display: block;
@@ -228,9 +232,12 @@ nav a:hover {
    text-align: center;
  }
 
+ footer h2, footer p {
+   color: #eee;
+ }
+
  footer p {
    margin: 0;
-   color: #eee;
  }
 
  footer .content-wrapper {
@@ -245,7 +252,7 @@ nav a:hover {
  }
 
  footer .social-icons p {
-   background-color: #d6b880;
+   background-color: #e5e5e5;
    border-radius: 50%;
    width: 40px;
    height: 40px;
@@ -257,6 +264,7 @@ nav a:hover {
 
 footer .social-icons p i {
   font-size: 1.25em;
+  color: #515151;
 }
 
 footer .copyright {
@@ -269,8 +277,12 @@ footer .copyright {
 
 /* Header */
 
+header, nav {
+  background-color: #e5e5e5;
+}
+
 header h2 a {
-  color: #2c2c2c;
+  color: #515151;
 }
 
 header h2 a:hover {
@@ -294,8 +306,8 @@ header h2 a:hover {
 
 .text-block {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.7);
-  right: 150px;
+  /*background-color: rgba(0, 0, 0, 0.7);*/
+  right: 250px;
   left: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -312,7 +324,6 @@ header h2 a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #2c2c2c;
 }
 
 .intro .content-wrapper {
@@ -326,6 +337,7 @@ header h2 a:hover {
 
 .intro i {
   font-size: 2em;
+  color: #2c2c2c;
 }
 
 /* Work */
@@ -335,7 +347,6 @@ header h2 a:hover {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  color: #2c2c2c;
 }
 
 .work .content-wrapper {
@@ -351,6 +362,10 @@ header h2 a:hover {
   font-size: 1.5em;
 }
 
+.work p {
+  color: #515151;
+}
+
 button {
   padding: 18px;
   margin-top: 10px;
@@ -363,8 +378,8 @@ button {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: -1px 7px 10px #2c2c2c;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px #515151;
 }
 
 button a {
@@ -377,7 +392,7 @@ button i {
 
 button:hover {
   cursor: pointer;
-  background-color: #D6A553
+  background-color: #D6A553;
 }
 
 /* Client Raves */
@@ -386,9 +401,12 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #2c2c2c;
   text-align: center;
-  background-color: #c3d9d8;
+  background-color: #e5e5e5;
+}
+
+.client-raves p {
+  color: #515151;
 }
 
 /* My Skills */
@@ -397,7 +415,10 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #2c2c2c;
+}
+
+.my-skills p {
+  color: #515151;
 }
 
 .skills-boxes {
@@ -407,18 +428,26 @@ button:hover {
   text-align: center;
 }
 
+.skills-boxes img {
+  width: 25%;
+}
+
 .skill-box {
-  border: 3px #2c2c2c solid;
-  margin: 30px 50px 0 50px;
+  /*border: 3px #2c2c2c solid;*/
+  margin: 30px 50px 15px 50px;
 }
 
 /* Message Me */
 
 .message-me {
-  background-color: #d49488;
+  background-color: #D67867;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.message-me h2 {
+  color: #fff;
 }
 
 .message-me p {
@@ -459,7 +488,6 @@ button:hover {
 }
 
 .about-me {
-  color: #2c2c2c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -479,6 +507,7 @@ button:hover {
   align-items: flex-start;
   flex-flow: column;
   line-height: 2em;
+  color: #515151;
 }
 
 .about-me figure {
@@ -490,22 +519,19 @@ button:hover {
 .work-together {
   display: flex;
   justify-content: center;
-  background-color: #f0bbb1;
+  background-color: #e5e5e5;
   text-align: center;
+  color: #2c2c2c;
 }
 
 .work-together button {
-  background-color: #e1dfdf;
+  background-color: #515151;
   box-shadow: -1px 7px 10px #2c2c2c;
 }
 
 .work-together button:hover {
   cursor: pointer;
   background-color: #a9a9a9;
-}
-
-.work-together button a {
-  color: #2c2c2c;
 }
 
 /* Fun Facts Slider */
@@ -563,7 +589,7 @@ button:hover {
 .dot-container {
   text-align: center;
   padding: 15px;
-  background: #eee;
+  background: #e5e5e5;
 }
 
 /* The dots/bullets/indicators */
@@ -614,6 +640,7 @@ button:hover {
 .contact-content h3 {
   font-size: 1.15em;
   font-weight: normal;
+  color: #515151;
 }
 
 .contact-form .content-wrapper {
@@ -641,28 +668,30 @@ input {
 }
 
 form .submit {
-  background: #d49488;
+  background: #d6b880;
   border-color: transparent;
   color: #eee;
   font-size: 1.2em;
   letter-spacing: 2px;
   height: 50px;
   margin-top: 20px;
-  border-radius: 10px;
-  box-shadow: -1px 7px 10px #a9a9a9;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px #515151;
 }
 
 form .submit:hover {
-  background-color: #D67C6F;
+  background-color: #D6A553;
   cursor: pointer;
 }
 
-/*--------------- Mobile Styles for Landworx Page ----------------*/
+/*--------------- Mobile Styles for Landworx & TWB Pages ----------------*/
 
 .top, .middle, .mood-board, .brand-style-guide, .flyer, .website {
   display: flex;
   justify-content: center;
-  color: #2c2c2c;
+}
+
+.mood-board, .brand-style-guide {
   background-color: #eee;
 }
 
@@ -789,8 +818,8 @@ form .submit:hover {
  /* Header */
 
 
- header {
-   background-color: #fff;
+ header, nav {
+   background-color: #e5e5e5;
  }
 
 header h2 {
@@ -798,20 +827,15 @@ header h2 {
   width: 32%;
 }
 
-header h2 a {
-  color: #2c2c2c;
-}
-
 header nav {
   display: flex;
   justify-content: flex-end;
   margin-top: 0;
-  background-color: #fff;
 }
 
 header nav ul {
   display: flex;
-  background-color: #fff;
+  background-color: #e5e5e5;
   margin-right: 40px;
 }
 
@@ -820,7 +844,7 @@ nav ul li a {
   justify-content: flex-end;
   width: 80%;
   padding-right: 40px;
-  background-color: #fff;
+  background-color: #e5e5e5;
 }
 
 nav a.icon {
@@ -841,6 +865,7 @@ nav a:hover {
 .text-block {
   right: 450px;
   left: 40px;
+  bottom: 400px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -867,6 +892,10 @@ nav a:hover {
 
 /* My Skills */
 
+.my-skills {
+  margin-bottom: 50px;
+}
+
 .skills-boxes {
   flex-flow: row;
 }
@@ -875,6 +904,10 @@ nav a:hover {
   width: 200px;
   height: 200px;
   margin: 10px;
+}
+
+.skills-boxes img {
+  width: 50%;
 }
 
 /* Message Me */
@@ -913,8 +946,11 @@ footer .copyright {
 
 /*---------------- About Page Tablet Styles ------------- */
 
-#about-header nav, #about-header nav ul li a {
+#about-header, #about-header nav, #about-header nav ul, #about-header nav ul li a {
   background-color: #fff;
+}
+
+#about-header nav, #about-header nav ul li a {
   color: #2c2c2c;
   justify-content: center;
 }
@@ -925,6 +961,7 @@ footer .copyright {
 
 #about-header nav {
   margin-left: 35px;
+  width: 43.25%;
 }
 
 #about-header h2 {
@@ -935,9 +972,6 @@ footer .copyright {
   color: #d49488;
 }
 
-#about-header nav {
-  width: 43.25%;
-}
 .about-me .content-wrapper {
   margin-top: 30px;
 }
@@ -958,31 +992,14 @@ footer .copyright {
   padding-left: 30px;
 }
 
-.facts-skillset-content {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.facts, .skillset {
-  width: 50%;
-  align-items: center;
-  justify-content: center;
-}
-
-.skillset .skills-circles {
-  flex-flow: row;
-  justify-content: space-around;
-}
-
 
 /*----------------- Contact Page Tablet Styles ---------- */
 
-#contact-header nav, #contact-header nav ul li a {
+#contact-header, #contact-header nav, #contact-header nav ul, #contact-header nav ul li a {
   background-color: #fff;
+}
+
+#contact-header nav, #contact-header nav ul li a {
   color: #2c2c2c;
   justify-content: center;
 }
@@ -1081,12 +1098,13 @@ nav ul li a {
 .text-block {
   right: 800px;
   left: 80px;
+  bottom: 175px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .text-block h1 {
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 /* Work */
@@ -1102,6 +1120,10 @@ nav ul li a {
   height: 250px;
   width: 300px;
   margin-left: 40px;
+}
+
+.skills-boxes img {
+  width: 40%;
 }
 
 /* Footer */
