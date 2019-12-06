@@ -307,14 +307,14 @@ header h2 a:hover {
 .text-block {
   position: absolute;
   /*background-color: rgba(0, 0, 0, 0.7);*/
-  right: 250px;
+  right: 175px;
   left: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .text-block h1 {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 /* Intro */
@@ -865,7 +865,6 @@ nav a:hover {
 .text-block {
   right: 450px;
   left: 40px;
-  bottom: 400px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -1098,7 +1097,6 @@ nav ul li a {
 .text-block {
   right: 800px;
   left: 80px;
-  bottom: 175px;
   padding-left: 10px;
   padding-right: 10px;
 }
