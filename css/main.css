@@ -686,12 +686,12 @@ form .submit:hover {
 
 /*--------------- Mobile Styles for Landworx & TWB Pages ----------------*/
 
-.top, .middle, .mood-board, .brand-style-guide, .flyer, .website {
+.top, .middle, .mood-board, .brand-style-guide, .flyer, .website, .wireframe, .landing-page {
   display: flex;
   justify-content: center;
 }
 
-.mood-board, .brand-style-guide {
+.mood-board, .brand-style-guide, .wireframe, .landing-page {
   background-color: #eee;
 }
 
