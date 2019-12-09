@@ -218,7 +218,7 @@ nav a.icon {
 }
 
 nav a:hover {
-  color: #d49488;
+  color: #D67867;
 }
 
  /* Footer */
@@ -286,7 +286,7 @@ header h2 a {
 }
 
 header h2 a:hover {
-  color: #d49488;
+  color: #D67867;
 }
 
 /* Hero Area */
@@ -315,6 +315,8 @@ header h2 a:hover {
 
 .text-block h1 {
   font-size: 1.3em;
+  flex-direction: ;
+  background-repeat:
 }
 
 /* Intro */
@@ -852,7 +854,7 @@ nav a.icon {
 }
 
 nav a:hover {
-  color: #d49488;
+  color: #D67867;
 }
 
 
@@ -955,7 +957,7 @@ footer .copyright {
 }
 
 #about-header nav a:hover {
-  color: #d49488;
+  color: #D67867;
 }
 
 #about-header nav {
@@ -968,7 +970,7 @@ footer .copyright {
 }
 
 #about-header h2 a:hover {
-  color: #d49488;
+  color: #D67867;
 }
 
 .about-me .content-wrapper {
@@ -1008,11 +1010,11 @@ footer .copyright {
 }
 
 #contact-header nav a:hover {
-  color: #d49488;
+  color: #D67867;
 }
 
 #contact-header h2 a:hover {
-  color: #d49488;
+  color: #D67867;
 }
 
 #contact-header h2 {
