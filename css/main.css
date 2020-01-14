@@ -347,7 +347,6 @@ header h2 a:hover {
 .work {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -356,12 +355,19 @@ header h2 a:hover {
 }
 
 .work article {
-  margin: 80px 0 80px 0;
+  margin: 30px 0;
 }
 
 .work h3 {
   font-weight: 600;
   font-size: 1.5em;
+}
+
+.work .work-examples {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .work p {
@@ -874,17 +880,25 @@ nav a:hover {
 
 /* Work */
 
+/*.work-examples {
+  display: flex;
+  flex-flow: wrap;
+}*/
+
 .work article {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   flex-basis: 50%;
 }
 
-.work .work-description,
-.work figure {
-  width: 50%;
+.work .work-description, .work figure {
+  width: 75%;
+}
+
+.work h3 {
+  font-size: 1.2em;
 }
 
 .work .work-divider {
@@ -1110,8 +1124,12 @@ nav ul li a {
 /* Work */
 
 .work h3 {
-  font-size: 2em;
+  font-size: 1.65em;
   font-weight: bold;
+}
+
+.work .work-description, .work figure {
+  width: 80%;
 }
 
 /* My Skills */
